@@ -6,7 +6,7 @@ const pageConfig = {
   ],
   group: {
     "🌐 Public": ['landing-page', 'docs'],
-    "💻 Servers": ['fra-1-0'],
+    "💻 Servers - FRA-1": ['fra-1-0'],
   },
 }
 
@@ -32,7 +32,7 @@ const workerConfig = {
     },
     {
       id: 'fra-1-0',
-      name: 'FRA-1-0',
+      name: 'Node 1',
       method: 'TCP_PING',
       target: '45.138.50.127:8006',
       timeout: 5000,
