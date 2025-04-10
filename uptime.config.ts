@@ -5,8 +5,8 @@ const pageConfig = {
     { link: 'mailto:contact@dockrelix.org', label: 'Contact Us', highlight: true },
   ],
   group: {
-    "🌐 Public": ['landing-page', 'fra-1-0'],
-    "🔐 Private": [],
+    "🌐 Public": ['landing-page'],
+    "💻 Servers": [ 'fra-1-0'],
   },
 }
 
