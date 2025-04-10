@@ -20,6 +20,7 @@ const workerConfig = {
       method: 'GET',
       target: 'https://dockrelix.org',
       checkLocationWorkerRoute: "https://de-cf.dockrelix.org/",
+      hideLatencyChart: true,
     },
     {
       id: 'docs',
@@ -27,6 +28,7 @@ const workerConfig = {
       method: 'GET',
       target: 'https://docs.dockrelix.org',
       checkLocationWorkerRoute: "https://de-cf.dockrelix.org/",
+      hideLatencyChart: true,
     },
     {
       id: 'fra-1-0',
@@ -35,6 +37,7 @@ const workerConfig = {
       target: '45.138.50.127:8006',
       timeout: 5000,
       checkLocationWorkerRoute: "https://de-cf.dockrelix.org/",
+      hideLatencyChart: true,
     },
   ],
   notification: {},
