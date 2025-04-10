@@ -18,20 +18,23 @@ const workerConfig = {
       id: 'landing-page',
       name: 'Landing Page',
       method: 'GET',
-      target: 'https://dockrelix.org'
+      target: 'https://dockrelix.org',
+      checkLocationWorkerRoute: "https://de-cf.dockrelix.org/",
     },
     {
       id: 'docs',
       name: 'Documentation',
       method: 'GET',
-      target: 'https://docs.dockrelix.org'
+      target: 'https://docs.dockrelix.org',
+      checkLocationWorkerRoute: "https://de-cf.dockrelix.org/",
     },
     {
       id: 'fra-1-0',
       name: 'FRA-1-0',
       method: 'TCP_PING',
       target: '45.138.50.127:8006',
-      timeout: 5000
+      timeout: 5000,
+      checkLocationWorkerRoute: "https://de-cf.dockrelix.org/",
     },
   ],
   notification: {},
